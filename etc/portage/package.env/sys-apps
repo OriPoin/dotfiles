@@ -1,0 +1,4 @@
+sys-apps/which LTO.conf
+sys-apps/coreutils LTO.conf
+sys-apps/less LTO.conf
+sys-apps/systemd LTO.conf

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Refresh Wallpaper
+while feh --randomize --bg-fill /home/oripoin/OneDrive/Wallpaper/
+do
+sleep 600
+done &
+
+# Autostart
+/usr/lib64/libexec/polkit-kde-authentication-agent-1 &
+picom -CGb &
+fcitx5 &
+flameshot &
+pasystray &
+copyq &
+(conky | while read LINE; do xsetroot -name "$LINE"; done) &

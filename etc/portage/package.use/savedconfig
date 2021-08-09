@@ -1,0 +1,3 @@
+sys-kernel/gentoo-kernel savedconfig
+x11-wm/dwm savedconfig
+x11-misc/slock savedconfig

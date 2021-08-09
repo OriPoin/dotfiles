@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Legion
+Comment=An Materia Gtk+ theme based on Elegant Design
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Legion
+MetacityTheme=Legion
+IconTheme=breeze-dark
+CursorTheme=Breeze_Snow
+ButtonLayout=close,minimize,maximize:menu

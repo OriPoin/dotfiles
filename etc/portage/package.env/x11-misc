@@ -1,0 +1,7 @@
+x11-misc/copyq LTO.conf
+x11-misc/dunst LTO.conf
+x11-misc/ly LTO.conf
+x11-misc/picom LTO.conf
+x11-misc/qt5ct LTO.conf
+x11-misc/rofi LTO.conf
+x11-misc/slock LTO.conf
