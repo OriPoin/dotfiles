@@ -1,4 +1,7 @@
-media-gfx/feh LTO.conf
-media-gfx/flameshot LTO.conf
-media-gfx/imagemagick LTO.conf
-media-gfx/krita LTO.conf
+media-gfx/exiv2			lto-noplt-ipa_pta-noseminter
+media-gfx/feh			lto-noplt-ipa_pta-noseminter
+media-gfx/graphite2		lto-noplt-ipa_pta-noseminter
+media-gfx/imagemagick	lto-noplt-ipa_pta-noseminter
+media-gfx/krita			lto-noplt-ipa_pta-noseminter
+media-gfx/potrace		lto-noplt-ipa_pta-noseminter
+media-gfx/qrencode		lto-noplt-ipa_pta-noseminter

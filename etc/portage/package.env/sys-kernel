@@ -1,0 +1,5 @@
+sys-kernel/dracut				default
+sys-kernel/gentoo-kernel		gentoo-kernel
+sys-kernel/installkernel-gentoo	default
+sys-kernel/linux-firmware		default
+sys-kernel/linux-headers		default

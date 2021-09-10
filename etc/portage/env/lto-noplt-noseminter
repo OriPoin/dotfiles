@@ -1,0 +1,19 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+
+# C
+O_FLAGS="-march=native -O3 -pipe"
+GRAPHITE="-fgraphite-identity -floop-nest-optimize"
+SSP_FLAGS="-fno-stack-protector"
+FLTO="-flto=auto -fuse-linker-plugin"
+NOPLT="-fno-plt"
+SEMINTERPOS="-fno-semantic-interposition"
+
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${SEMINTERPOS}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-Wl,-O3 -Wl,-as-needed -Wl,--hash-style=gnu -Wl,--sort-common -Wl,--strip-all"
+

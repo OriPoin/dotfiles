@@ -1,3 +1,8 @@
- app-i18n/fcitx5 LTO.conf
-app-i18n/fcitx5-chinese-addons LTO.conf
-app-i18n/fcitx5-configtool LTO.conf
+app-i18n/fcitx5					lto-noplt-ipa_pta-noseminter
+app-i18n/fcitx5-chinese-addons	lto-noplt-ipa_pta-noseminter
+app-i18n/fcitx5-configtool		lto-noplt-ipa_pta-noseminter
+app-i18n/fcitx5-gtk				lto-noplt-ipa_pta-noseminter
+app-i18n/fcitx5-qt				lto-noplt-ipa_pta-noseminter
+app-i18n/libime					lto-noplt-ipa_pta-noseminter
+app-i18n/opencc					lto-noplt-ipa_pta-noseminter
+app-i18n/unicode-cldr			lto-noplt-ipa_pta-noseminter

@@ -1,0 +1,2 @@
+sys-libs/glibc custom-cflags
+sys-libs/zlib minizip

@@ -1,1 +1,3 @@
-www-client/chromium www-client/chromium.conf
+www-client/chromium			chromium
+www-client/google-chrome	default
+www-client/w3m				default

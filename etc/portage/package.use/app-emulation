@@ -1,0 +1,4 @@
+app-emulation/libvirt -virt-network
+app-emulation/qemu spice zstd -gtk -sdl -ncurses usbredir
+app-emulation/wine-staging netapi mingw samba ldap kerberos capi gstreamer prelink osmesa opencl openal gssapi gsm
+app-emulation/libvirt-glib introspection

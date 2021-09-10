@@ -1,1 +1,4 @@
-net-im/telegram-desktop net-im/telegram-desktop.conf
+net-im/telegram-desktop	lto-noplt-ipa_pta
+net-im/tencent-qq		default
+net-im/wechat-uos		default
+net-im/wemeet			default

@@ -42,13 +42,10 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Steam",    NULL,       NULL,       0,            1,           -1 },
 	{ "Qq",       NULL,       NULL,       1 << 8,       1,           -1 },
-	{ "copyq",    NULL,       NULL,       0,            1,           -1 },
 	{ "Virt-manager",  NULL,  NULL,       0,            1,           -1 },
 	{ "\345\276\256\344\277\241",  NULL, NULL, 0,       1,           -1 },
-	{ "qqmusic.exe",  NULL,   NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
@@ -76,10 +73,10 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[]    = { "rofi", "-combi-modi", "drun,window", "-show", "combi", "-show-icons" };
-static const char *termcmd[]     = { "alacritty", NULL };
-static const char *flameshot[]   = { "flameshot", "gui", NULL };
-static const char *lock[]       = { "/usr/bin/betterlockscreen", "--off", "5", "-l", NULL };
+static const char *dmenucmd[]	= { "rofi", "-combi-modi", "drun,window", "-show", "combi", "-show-icons", NULL };
+static const char *termcmd[]	= { "konsole", NULL };
+static const char *ScreenShot[]	= { "spectacle", "--region", "--gui", NULL };
+static const char *lock[]		= { "slock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -116,7 +113,7 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-	{ MODKEY | ShiftMask, 			XK_s, 	   spawn, 		   {.v = flameshot } },
+	{ MODKEY | ShiftMask, 			XK_s, 	   spawn, 		   {.v = ScreenShot } },
 	{ MODKEY | ShiftMask, 			XK_l, 	   spawn, 		   {.v = lock } },
 };
 

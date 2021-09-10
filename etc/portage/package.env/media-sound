@@ -1,2 +1,3 @@
-media-sound/pasystray LTO.conf
-media-sound/pulseaudio LTO.conf
+media-sound/lame		lto-noplt-ipa_pta-noseminter
+media-sound/mpg123		lto-noplt-ipa_pta-noseminter
+media-sound/pulseaudio	lto-noplt-ipa_pta-noseminter

@@ -1,1 +1,6 @@
-app-emulation/libvirt LTO.conf
+app-emulation/libvirt			lto-noplt
+app-emulation/libvirt-glib		lto-noplt-ipa_pta-noseminter
+app-emulation/qemu				qemu
+app-emulation/spice				lto-noplt-ipa_pta-noseminter
+app-emulation/spice-protocol	lto-noplt-ipa_pta-noseminter
+app-emulation/virt-manager		lto-noplt-ipa_pta-noseminter

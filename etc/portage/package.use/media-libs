@@ -1,0 +1,3 @@
+media-libs/freetype		harfbuzz
+media-libs/mesa			osmesa -opencl -vaapi -vdpau
+media-libs/harfbuzz		introspection

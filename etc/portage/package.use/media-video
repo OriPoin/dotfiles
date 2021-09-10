@@ -1,0 +1,3 @@
+media-video/obs-studio	nvenc
+media-video/vlc			matroska
+media-video/ffmpeg		opus

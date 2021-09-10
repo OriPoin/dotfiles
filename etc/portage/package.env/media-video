@@ -1,1 +1,3 @@
-media-video/* LTO.conf
+media-video/obs-studio	lto-noplt-ipa_pta-noseminter
+media-video/vlc			lto-noplt-ipa_pta-noseminter
+media-video/ffmpeg		noseminter
