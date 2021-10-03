@@ -9,8 +9,9 @@ GRAPHITE="-fgraphite-identity -floop-nest-optimize"
 SSP_FLAGS="-fno-stack-protector"
 FLTO="-flto=auto -fuse-linker-plugin"
 NOPLT="-fno-plt"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} "
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${ALIGN}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"

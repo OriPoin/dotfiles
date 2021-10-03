@@ -1,5 +1,5 @@
 #!/bin/sh
-#xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --setprovideroutputsource modesetting NVIDIA-0
 #xrandr --output HDMI-0 --mode 2560x1440 --pos 0x1080 --rate 75 --output eDP-1-1 --mode 1920x1080 --pos 320x0 --rate 60
 #xrandr --output HDMI-0 --mode 2560x1440 --pos 1920x0 --rate 75 --output eDP-1-1 --mode 1920x1080 --pos 0x180 --rate 60
 xrandr --auto

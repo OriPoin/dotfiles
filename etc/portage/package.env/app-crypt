@@ -1,0 +1,10 @@
+app-crypt/argon2	lto-noplt-ipa_pta-noseminter
+app-crypt/gcr		noplt-ipa_pta-noseminter
+app-crypt/gnupg		lto-noplt-ipa_pta-noseminter
+app-crypt/gpgme		lto-noplt-ipa_pta-noseminter
+app-crypt/libb2		lto-noplt-ipa_pta-noseminter
+app-crypt/libmd		lto-noplt-ipa_pta-noseminter
+app-crypt/libsecret	lto-noplt-ipa_pta-noseminter
+app-crypt/p11-kit	lto-noplt-ipa_pta-noseminter
+app-crypt/pinentry	lto-noplt-ipa_pta-noseminter
+app-crypt/rhash		lto-noplt-ipa_pta-noseminter

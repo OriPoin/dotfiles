@@ -11,8 +11,9 @@ FLTO="-flto=auto -fuse-linker-plugin"
 NOPLT="-fno-plt"
 IPAPTA="-fipa-pta"
 SEMINTERPOS="-fno-semantic-interposition"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${IPAPTA} ${SEMINTERPOS}"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${IPAPTA} ${SEMINTERPOS} ${ALIGN}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"

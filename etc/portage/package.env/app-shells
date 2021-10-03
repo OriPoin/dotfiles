@@ -1,0 +1,8 @@
+app-shells/bash						lto-noplt-ipa_pta-noseminter
+app-shells/gentoo-zsh-completions	default
+app-shells/gitstatus				lto-noplt-ipa_pta-noseminter
+app-shells/zsh						lto-noplt-ipa_pta-noseminter
+app-shells/zsh-autosuggestions		default
+app-shells/zsh-completions			default
+app-shells/zsh-syntax-highlighting	default
+app-shells/zsh-theme-powerlevel10k	default

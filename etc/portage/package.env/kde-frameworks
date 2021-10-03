@@ -23,13 +23,13 @@ kde-frameworks/kdnssd				lto-noplt-ipa_pta-noseminter
 kde-frameworks/kdoctools			lto-noplt-ipa_pta-noseminter
 kde-frameworks/kemoticons			lto-noplt-ipa_pta-noseminter
 kde-frameworks/kf-env				lto-noplt-ipa_pta-noseminter
-kde-frameworks/kfilemetadata		lto-noplt-ipa_pta-noseminter
 kde-frameworks/kglobalaccel			lto-noplt-ipa_pta-noseminter
 kde-frameworks/kguiaddons			lto-noplt-ipa_pta-noseminter
 kde-frameworks/kholidays			lto-noplt-ipa_pta-noseminter
 kde-frameworks/ki18n				lto-noplt-ipa_pta-noseminter
 kde-frameworks/kiconthemes			lto-noplt-ipa_pta-noseminter
 kde-frameworks/kidletime			lto-noplt-ipa_pta-noseminter
+kde-frameworks/kimageformats		lto-noplt-ipa_pta-noseminter
 kde-frameworks/kinit				lto-noplt-ipa_pta-noseminter
 kde-frameworks/kio					lto-noplt-ipa_pta-noseminter
 kde-frameworks/kirigami				lto-noplt-ipa_pta-noseminter

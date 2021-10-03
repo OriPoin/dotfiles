@@ -2,7 +2,7 @@
 # built this stage.
 # Please consult /usr/share/portage/config/make.conf.example for a more
 # detailed example.
-GRAPHITE="-fgraphite-identity -floop-nest-optimize"
-COMMON_FLAGS="${GRAPHITE} -pipe -fipa-pta"
-KCPPFLAGS="${COMMON_FLAGS}"
-KCFLAGS="${COMMON_FLAGS}"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
+COMMON_FLAGS="-pipe -fipa-pta"
+KCPPFLAGS="${COMMON_FLAGS} ${ALIGN}"
+KCFLAGS="${COMMON_FLAGS} ${ALIGN}"

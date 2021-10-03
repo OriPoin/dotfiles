@@ -1,0 +1,15 @@
+x11-apps/bdftopcf		lto-noplt-ipa_pta-noseminter
+x11-apps/iceauth		lto-noplt-ipa_pta-noseminter
+x11-apps/mkfontscale	lto-noplt-ipa_pta-noseminter
+x11-apps/rgb			lto-noplt-ipa_pta-noseminter
+x11-apps/setxkbmap		lto-noplt-ipa_pta-noseminter
+x11-apps/xauth			lto-noplt-ipa_pta-noseminter
+x11-apps/xinit			lto-noplt-ipa_pta-noseminter
+x11-apps/xkbcomp		lto-noplt-ipa_pta-noseminter
+x11-apps/xmessage		lto-noplt-ipa_pta-noseminter
+x11-apps/xprop			lto-noplt-ipa_pta-noseminter
+x11-apps/xrandr			lto-noplt-ipa_pta-noseminter
+x11-apps/xrdb			lto-noplt-ipa_pta-noseminter
+x11-apps/xset			lto-noplt-ipa_pta-noseminter
+x11-apps/xsetroot		lto-noplt-ipa_pta-noseminter
+x11-apps/xwininfo		lto-noplt-ipa_pta-noseminter

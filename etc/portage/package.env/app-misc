@@ -1,0 +1,7 @@
+app-misc/c_rehash			lto-noplt-ipa_pta-noseminter
+app-misc/ca-certificates	lto-noplt-ipa_pta-noseminter
+app-misc/editor-wrapper		lto-noplt-ipa_pta-noseminter
+app-misc/mime-types			lto-noplt-ipa_pta-noseminter
+app-misc/neofetch			default
+app-misc/pax-utils			lto-noplt-ipa_pta-noseminter
+app-misc/scrub				lto-noplt-ipa_pta-noseminter

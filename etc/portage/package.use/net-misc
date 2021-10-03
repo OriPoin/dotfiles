@@ -1,1 +1,2 @@
-net-misc/onedrive dmd-2_096
+net-misc/onedrive	dmd-2_096
+net-misc/spice-gtk	introspection usbredir

@@ -1,3 +1,2 @@
 kde-apps/dolphin	-activities
-kde-apps/kio-extras	-activities
-kde-apps/spectacle	-kipi
+kde-apps/kio-extras	-activities -sftp -phonon

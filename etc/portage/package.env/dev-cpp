@@ -1,0 +1,5 @@
+dev-cpp/abseil-cpp	lto-noplt-ipa_pta-noseminter
+dev-cpp/eigen		lto-noplt-ipa_pta-noseminter
+dev-cpp/glibmm		lto-noplt-ipa_pta-noseminter
+dev-cpp/ms-gsl		lto-noplt-ipa_pta-noseminter
+dev-cpp/range-v3	lto-noplt-ipa_pta-noseminter

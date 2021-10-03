@@ -8,8 +8,9 @@ O_FLAGS="-march=native -O3 -pipe"
 GRAPHITE="-fgraphite-identity -floop-nest-optimize"
 SSP_FLAGS="-fno-stack-protector"
 SEMINTERPOS="-fno-semantic-interposition"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${SEMINTERPOS}"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${SEMINTERPOS} ${ALIGN}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"

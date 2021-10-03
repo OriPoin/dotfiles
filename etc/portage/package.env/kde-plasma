@@ -12,11 +12,12 @@ kde-plasma/kmenuedit				lto-noplt-ipa_pta-noseminter
 kde-plasma/kscreen					lto-noplt-ipa_pta-noseminter
 kde-plasma/kscreenlocker			lto-noplt-ipa_pta-noseminter
 kde-plasma/ksshaskpass				lto-noplt-ipa_pta-noseminter
-kde-plasma/ksysguard				lto-noplt-ipa_pta-noseminter
+kde-plasma/ksystemstats				lto-noplt-ipa_pta-noseminter
 kde-plasma/kwayland-integration		lto-noplt-ipa_pta-noseminter
 kde-plasma/kwayland-server			lto-noplt-ipa_pta-noseminter
 kde-plasma/kwin						lto-noplt-ipa_pta-noseminter
 kde-plasma/kwrited					lto-noplt-ipa_pta-noseminter
+kde-plasma/layer-shell-qt			lto-noplt-ipa_pta-noseminter
 kde-plasma/libkscreen				lto-noplt-ipa_pta-noseminter
 kde-plasma/libksysguard				lto-noplt-ipa_pta-noseminter
 kde-plasma/libkworkspace			lto-noplt-ipa_pta-noseminter

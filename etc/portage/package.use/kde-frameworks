@@ -1,1 +1,4 @@
-kde-frameworks/krunner	-activities
+kde-frameworks/krunner		-activities
+kde-frameworks/ktexteditor	-editorconfig -git
+kde-frameworks/kio			-kwallet
+kde-frameworks/kinit		-caps

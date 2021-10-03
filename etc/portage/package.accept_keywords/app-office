@@ -1,1 +1,2 @@
-app-office/wps-office ~amd64
+app-office/wps-office		~amd64
+app-office/bytedance-feishu	~amd64

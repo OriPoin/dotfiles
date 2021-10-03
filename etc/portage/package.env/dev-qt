@@ -16,7 +16,6 @@ dev-qt/qtpaths				lto-noplt-ipa_pta-noseminter
 dev-qt/qtprintsupport		lto-noplt-ipa_pta-noseminter
 dev-qt/qtquickcontrols		lto-noplt-ipa_pta-noseminter
 dev-qt/qtquickcontrols2		lto-noplt-ipa_pta-noseminter
-dev-qt/qtscript				noplt-ipa_pta-noseminter
 dev-qt/qtsensors			lto-noplt-ipa_pta-noseminter
 dev-qt/qtsql				lto-noplt-ipa_pta-noseminter
 dev-qt/qtsvg				lto-noplt-ipa_pta-noseminter

@@ -7,11 +7,13 @@
 O_FLAGS="-march=native -O3 -pipe"
 GRAPHITE="-fgraphite-identity -floop-nest-optimize"
 SSP_FLAGS="-fno-stack-protector"
-FLTO="-flto=auto -fwhole-program"
+FLTO="-flto=auto -fuse-linker-plugin"
 NOPLT="-fno-plt"
 IPAPTA="-fipa-pta"
+SEMINTERPOS="-fno-semantic-interposition"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${IPAPTA}"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${IPAPTA} ${SEMINTERPOS} ${ALIGN}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"

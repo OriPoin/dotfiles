@@ -10,8 +10,9 @@ SSP_FLAGS="-fno-stack-protector"
 FLTO="-flto=auto -fuse-linker-plugin"
 NOPLT="-fno-plt"
 SEMINTERPOS="-fno-semantic-interposition"
+ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${SEMINTERPOS}"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${SEMINTERPOS} ${ALIGN}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"

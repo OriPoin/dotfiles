@@ -23,11 +23,11 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-#/dev/nvme0n1p1		/boot		vfat		defaults,noatime	0 2 
-#/dev/nvme0n1p4		/		ext4		defaults,noatime	0 1 
-#/dev/sda1               /mnt/HDD	ntfs-3g         defaults                0 0
-UUID=F8C0-5D72		/boot		vfat		defaults,noatime	0 2 
-UUID=5ba64bbb-7f9b-4a1d-8dfe-3fdfe52986c7		/		ext4		defaults,noatime	0 1 
-UUID=90D83B69D83B4CAA	/mnt/HDD	ntfs-3g		defaults,noauto		0 0
-/swapfile		none		swap		defaults		0 0 
-tmpfs				/var/tmp/portage		tmpfs	size=8G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev	0 0
+#/dev/nvme0n1p1						/boot			vfat		defaults,noatime						0 2 
+#/dev/nvme0n1p4						/			ext4		defaults,noatime						0 1 
+#/dev/sda1               				/mnt/HDD		ntfs-3g         defaults                					0 0
+UUID=F8C0-5D72						/boot			vfat		defaults,noatime						0 2 
+UUID=5ba64bbb-7f9b-4a1d-8dfe-3fdfe52986c7		/			ext4		defaults,noatime,discard					0 1 
+UUID=90D83B69D83B4CAA					/mnt/HDD		ntfs-3g		defaults,noauto,x-systemd.automount				0 0
+/swapfile						none			swap		defaults							0 0 
+tmpfs							/var/tmp/portage	tmpfs		size=8G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev	0 0

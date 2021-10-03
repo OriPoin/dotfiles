@@ -1,5 +1,6 @@
 # Remove files that shall not be installed from this list.
 i915/kbl_guc_33.0.0.bin
+i915/kbl_huc_4.0.0.bin
 i915/kbl_dmc_ver1_04.bin
 intel/ibt-17-16-1.sfi
 iwlwifi-9000-pu-b0-jf-b0-46.ucode

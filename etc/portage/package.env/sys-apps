@@ -3,7 +3,6 @@ sys-apps/acl						default
 sys-apps/attr						default
 sys-apps/baselayout					default
 sys-apps/bubblewrap					default
-sys-apps/busybox					default
 sys-apps/coreutils					default
 sys-apps/dbus						default
 sys-apps/debianutils				default
