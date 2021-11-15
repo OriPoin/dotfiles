@@ -1,2 +1,3 @@
-net-misc/onedrive	dmd-2_096
-net-misc/spice-gtk	introspection usbredir
+net-misc/onedrive		dmd-2_096
+net-misc/spice-gtk		introspection usbredir
+net-misc/networkmanager	-modemmanager -ppp iwd

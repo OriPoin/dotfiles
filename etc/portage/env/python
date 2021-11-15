@@ -4,7 +4,7 @@
 # detailed example.
 
 # C
-O_FLAGS="-march=native -O3 -pipe"
+O_FLAGS="-march=native -O2 -pipe"
 GRAPHITE="-fgraphite-identity -floop-nest-optimize"
 SSP_FLAGS="-fno-stack-protector"
 FLTO="-flto=auto -fuse-linker-plugin"
@@ -12,8 +12,9 @@ NOPLT="-fno-plt"
 IPAPTA="-fipa-pta"
 SEMINTERPOS="-fno-semantic-interposition"
 ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
+LOOP="-funroll-loops"
 
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${FLTO} ${NOPLT} ${IPAPTA} ${SEMINTERPOS} ${ALIGN}"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${NOPLT} ${IPAPTA} ${SEMINTERPOS} ${ALIGN} ${LOOP}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
@@ -26,33 +27,3 @@ PORTDIR="/var/db/repos/gentoo"
 DISTDIR="/var/cache/distfiles"
 PKGDIR="/var/cache/binpkgs"
 PORTAGE_TMPDIR="/var/tmp/portage"
-
-# This sets the language of build output to English.
-# Please keep this setting intact when reporting bugs.
-LC_MESSAGES=C
-
-# Makeopt
-MAKEOPTS="-j9"
-
-# Feature
-FEATURES="parallel-fetch -test"
-AUTO_CLEAN="yes"
-
-# Aria2
-FETCHCOMMAND="/usr/bin/aria2c -d \${DISTDIR} -o \${FILE} --allow-overwrite=true --max-tries=32 --max-file-not-found=2 --max-concurrent-downloads=5 --connect-timeout=5  --timeout=5 --split=5 --min-split-size=2M --lowest-speed-limit=1K --max-connection-per-server=9 --uri-selector=feedback \${URI} --all-proxy="http://127.0.0.1:10809""
-RESUMECOMMAND="${FETCHCOMMAND}"
-
-# Platform
-LLVM_TARGETS="X86"
-CHOST="x86_64-pc-linux-gnu"
-CPU_FLAGS_X86="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt rdrand sse sse2 sse3 sse4_1 sse4_2 ssse3"
-
-# Hardware
-VIDEO_CARDS="intel i965 iris nvidia"
-ALSA_CARDS="hda_intel"
-INPUT_DEVICES="libinput"
-
-# L10N
-L10N="en-US en"
-
-GENTOO_MIRRORS="https://mirrors.tuna.tsinghua.edu.cn/gentoo"

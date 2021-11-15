@@ -1,1 +1,1 @@
-www-client/chromium	custom-cflags
+www-client/chromium	custom-cflags official -suid -hangouts -js-type-check

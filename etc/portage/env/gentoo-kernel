@@ -1,8 +1,0 @@
-# These settings were set by the catalyst build script that automatically
-# built this stage.
-# Please consult /usr/share/portage/config/make.conf.example for a more
-# detailed example.
-ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
-COMMON_FLAGS="-pipe -fipa-pta"
-KCPPFLAGS="${COMMON_FLAGS} ${ALIGN}"
-KCFLAGS="${COMMON_FLAGS} ${ALIGN}"

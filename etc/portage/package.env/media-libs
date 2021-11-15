@@ -56,7 +56,7 @@ media-libs/phonon					noplt-ipa_pta-noseminter
 media-libs/phonon-vlc				noplt-ipa_pta-noseminter
 media-libs/rnnoise					noplt-ipa_pta-noseminter
 media-libs/speexdsp					noplt-ipa_pta-noseminter
-media-libs/tg_owt					noplt-ipa_pta-noseminter
+media-libs/tg_owt					lto-noplt-ipa_pta-noseminter
 media-libs/tiff						noplt-ipa_pta-noseminter
 media-libs/vulkan-loader			noplt-ipa_pta-noseminter
 media-libs/webrtc-audio-processing	noplt-ipa_pta-noseminter

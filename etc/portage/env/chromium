@@ -4,20 +4,32 @@
 # detailed example.
 
 #GCC
-O_FLAGS="-march=native -O2 -pipe"
+O_FLAGS="-march=native -O3 -pipe"
 GRAPHITE="-fgraphite-identity -floop-nest-optimize"
 SSP_FLAGS="-fno-stack-protector"
+NOPLT="-fno-plt"
+IPAPTA="-fipa-pta"
+SEMINTERPOS="-fno-semantic-interposition"
 ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${ALIGN}"
+LOOP="-funroll-loops"
+COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${IPAPTA} ${PTHREAD} ${ALIGN} ${NOPLT} ${SEMINTERPOS} ${LOOP}"
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
 LDFLAGS="-Wl,-O3 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common -Wl,--strip-all"
 
-EXTRA_GN="gcc_lto=true"
-#google_api_key = "AIzaSyACiDy0R2aIi90jtpiGLwCjHioOChOYNR4"
-#google_default_client_id = "1019942342462-s5shbjq9u8u1m3aag5b862fr7m4b5soh.apps.googleusercontent.com"
-#google_default_client_secret = "GA5yEtcKYlM6ucSr_ABlP02U"
+EXTRA_GN="optimize_webui=true \
+enable_vr=false \
+symbol_level=0 \
+blink_symbol_level=0 \
+v8_symbol_level=0 \
+x64_arch=\"native\" \
+target_cpu=\"x64\" \
+target_environment=\"device\" \
+target_os=\"linux\""
+#google_api_key="AIzaSyACiDy0R2aIi90jtpiGLwCjHioOChOYNR4"
+#google_default_client_id="1019942342462-s5shbjq9u8u1m3aag5b862fr7m4b5soh.apps.googleusercontent.com"
+#google_default_client_secret="GA5yEtcKYlM6ucSr_ABlP02U"
 
 EMERGE_DEFAULT_OPTS="--keep-going --with-bdeps=y --ask --verbose"
 

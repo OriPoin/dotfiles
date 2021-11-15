@@ -1,0 +1,128 @@
+#!/bin/bash
+
+PGO_DIR="/var/tmp/pgo"
+PROFILE_DIR="${PGO_DIR}/${CATEGORY}/${P}"
+PROFILABLE=0
+CFLAGS_PROFILE_GEN="-fprofile-generate=${PROFILE_DIR} --coverage"
+CFLAGS_PROFILE_USE="-fprofile-use=${PROFILE_DIR} -fprofile-correction"
+
+CXXFLAGS_PROFILE_GEN="-fprofile-generate=${PROFILE_DIR} --coverage"
+CXXFLAGS_PROFILE_USE="-fprofile-use=${PROFILE_DIR} -fprofile-correction"
+
+LDFLAGS_PROFILE_GEN="--coverage"
+
+CFLAGS_CUSTOM=""
+LDFLAGS_CUSTOM=""
+
+if [ "${EBUILD_PHASE}" == "unpack" ]
+then
+	if type epatch_user >& /dev/null; then
+		cd "${S}"
+		epatch_user
+	fi
+
+	if [[ "$CFLAGS" != *"gdb"* && "$CXXFLAGS" != *"gdb"* ]] && [[ "${IUSE}" != *"pgo"* && "${USE}" != *"pgo"* ]]
+	then
+		case "${PN}" in
+			telegram-desktop | krita | qbittorrent*)
+
+				elog "Portage will try to build ${CATEGORY}/${PN} with PGO."
+
+				if [ -d "${PROFILE_DIR}" ]
+				then
+					elog "Portage will use the analysis that is stored at ${PROFILE_DIR}."
+					CFLAGS="${CFLAGS} ${CFLAGS_CUSTOM} ${CFLAGS_PROFILE_USE}" 
+					CXXFLAGS="${CXXFLAGS} ${CXXFLAGS_CUSTOM} ${CXXFLAGS_PROFILE_USE}"
+					LDFLAGS="${LDFLAGS} ${LDFLAGS_CUSTOM}" 
+				else
+					elog "Running with PGO for the first time. Use ${P} before you recompile it."
+					CFLAGS="${CFLAGS} ${CFLAGS_CUSTOM} ${CFLAGS_PROFILE_GEN}"
+					CXXFLAGS="${CXXFLAGS} ${CXXFLAGS_CUSTOM} ${CXXFLAGS_PROFILE_GEN}"
+					LDFLAGS="${LDFLAGS} ${LDFLAGS_CUSTOM} ${LDFLAGS_PROFILE_GEN}" 
+				fi
+				;;
+		# case "${CATEGORY}" in
+		# 	kde-apps | kde-frameworks | kde-plasma | net-im | media-video | x11-base | x11-misc)
+
+		# 		elog "Portage will try to build ${CATEGORY}/${PN} with PGO."
+
+		# 		if [ -d "${PROFILE_DIR}" ]
+		# 		then
+		# 			elog "Portage will use the analysis that is stored at ${PROFILE_DIR}."
+		# 			CFLAGS="${CFLAGS} ${CFLAGS_CUSTOM} ${CFLAGS_PROFILE_USE}" 
+		# 			CXXFLAGS="${CXXFLAGS} ${CXXFLAGS_CUSTOM} ${CXXFLAGS_PROFILE_USE}"
+		# 			LDFLAGS="${LDFLAGS} ${LDFLAGS_CUSTOM}" 
+		# 		else
+		# 			elog "Running with PGO for the first time. Use ${P} before you recompile it."
+		# 			CFLAGS="${CFLAGS} ${CFLAGS_CUSTOM} ${CFLAGS_PROFILE_GEN}"
+		# 			CXXFLAGS="${CXXFLAGS} ${CXXFLAGS_CUSTOM} ${CXXFLAGS_PROFILE_GEN}"
+		# 			LDFLAGS="${LDFLAGS} ${LDFLAGS_CUSTOM} ${LDFLAGS_PROFILE_GEN}" 
+		# 		fi
+		# 		;;
+		esac
+	#PGO might exist in IUSE but the user may want it or not. Print the appropriate message.
+	elif [[ "${IUSE}" == *"pgo"* ]]
+	then
+		local PGO_WARN_MSG="IUSE array of ${CATEGORY}/${PN} contains pgo,"
+		local PGO_HANDLE_MSG="It is best to leave ${CATEGORY}/${P} ebuild handle this."
+
+		if [[ "${USE}" == *"pgo"* ]]
+		then
+			ewarn "${PGO_WARN_MSG} and it's enabled."
+			ewarn "${PGO_HANDLE_MSG}"
+		elif [[ "${USE}" != *"pgo"* ]]
+		then
+			ewarn "${PGO_WARN_MSG} but the user disabled this USE flag."
+			ewarn "${PGO_HANDLE_MSG}"
+		fi
+	fi
+fi
+
+if [ "${EBUILD_PHASE}" == "pre_src_prepare" ]
+then
+    [[ ${EAPI:-0} == [012345] ]] || return
+    if ! type estack_push > /dev/null 2>&1; then
+        local estack_names="eshopts_push eshopts_pop evar_push evar_push_set evar_pop estack_push estack_pop"
+        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${estack_names// /|})\$/ { p = 1 } p { print }" ${PORTDIR}/eclass/estack.eclass)
+    fi
+    if ! type epatch_user > /dev/null 2>&1; then
+        local epatch_names="EPATCH_SOURCE EPATCH_USER_SOURCE epatch_user_death_notice epatch_user epatch"
+        source <(awk "/^# @(FUNCTION|VARIABLE): / { p = 0 } /^# @(FUNCTION|VARIABLE): (${epatch_names// /|})\$/ { p = 1 } p { print }" ${PORTDIR}/eclass/epatch.eclass)
+    fi
+
+    epatch_user
+
+    for name in $epatch_names; do
+        unset $name
+    done
+    for name in $estack_names; do
+        unset $name
+    done
+fi
+
+if [ "${EBUILD_PHASE}" == "postinst" ]
+then
+	#if PGO was applied, test if it succeeded and chown the PROFILE_DIR
+	if [[ "$PROFILABLE" == 1 ]]  ; then
+		for i in $(equery f "${PN}" | grep "bin/");
+		do
+			if [[ -z $(strings "${i}" | grep profiling) ]]; then
+				ewarn "${i} isn't making use of PGO while such cflags were applied to ${CATEGORY}/${P}"
+			else
+				elog  "${i} is making use of PGO"
+			fi
+		done
+		for i in $(equery f "${PN}" | grep "*.so");
+		do
+			if [[ -z $(strings "${i}" | grep profiling) ]]; then
+				ewarn "${i} isn't making use of PGO while such cflags were applied to ${CATEGORY}/${P}."
+			else
+				elog  "${i} is making use of PGO."
+			fi
+		done
+	fi
+	
+	#Normal user should be able to "write" here the statistical analysis needed for PGO
+        # TODO: What about other users?
+	chown -R oripoin:oripoin "${PGO_DIR}"
+fi

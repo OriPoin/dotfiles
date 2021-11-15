@@ -18,6 +18,6 @@ net-libs/libtorrent-rasterbar	default
 net-libs/mbedtls				default
 net-libs/miniupnpc				default
 net-libs/nghttp2				default
-net-libs/nodejs					lto-noplt-ipa_pta-noseminter
+net-libs/nodejs					noplt-ipa_pta-noseminter
 net-libs/rpcsvc-proto			default
 net-libs/usrsctp				default
