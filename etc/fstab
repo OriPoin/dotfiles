@@ -1,8 +1,8 @@
 # /etc/fstab: static file system information.
 #
-# noatime turns off atimes for increased performance (atimes normally aren't
-# needed); notail increases performance of ReiserFS (at the expense of storage
-# efficiency).  It's safe to drop the noatime options if you want and to
+# noatime turns off atimes for increased performance (atimes normally aren't 
+# needed); notail increases performance of ReiserFS (at the expense of storage 
+# efficiency).  It's safe to drop the noatime options if you want and to 
 # switch between notail / tail freely.
 #
 # The root filesystem should have a pass number of either 0 or 1.
@@ -23,11 +23,12 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-#/dev/nvme0n1p1						/boot			vfat		defaults,noatime						0 2 
-#/dev/nvme0n1p4						/			ext4		defaults,noatime						0 1 
-#/dev/sda1               				/mnt/HDD		ntfs-3g         defaults                					0 0
-UUID=F8C0-5D72						/boot			vfat		defaults,noatime						0 2 
-UUID=5ba64bbb-7f9b-4a1d-8dfe-3fdfe52986c7		/			ext4		defaults,noatime,discard					0 1 
-UUID=90D83B69D83B4CAA					/mnt/HDD		ntfs-3g		defaults,noauto,x-systemd.automount				0 0
+#LABEL=boot		/boot		ext4		noauto,noatime	1 2
+#UUID=58e72203-57d1-4497-81ad-97655bd56494		/		ext4		noatime		0 1
+#LABEL=swap		none		swap		sw		0 0
+#/dev/cdrom		/mnt/cdrom	auto		noauto,ro	0 0
+UUID="3AB7-BE23"					/boot			vfat		defaults,noatime						0 2
+UUID="3e7065d0-b703-476d-bf43-4396426ba373"		/			f2fs		defaults,noatime						0 0
+UUID="32f50466-226b-44e7-aba6-019da443a80c"		/mnt/HDD		ext4		defaults,noatime,noauto,x-systemd.automount			0 0
 /swapfile						none			swap		defaults							0 0 
-tmpfs							/var/tmp/portage	tmpfs		size=8G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev	0 0
+tmpfs							/var/tmp/portage	tmpfs		size=12G,uid=portage,gid=portage,mode=775,nosuid,noatime,nodev	0 0

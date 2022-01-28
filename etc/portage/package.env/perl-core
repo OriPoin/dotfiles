@@ -1,0 +1,4 @@
+perl-core/CPAN
+perl-core/Encode
+perl-core/File-Temp
+perl-core/Scalar-List-Utils

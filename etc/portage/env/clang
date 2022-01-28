@@ -1,0 +1,4 @@
+CC="clang"
+CXX="clang++"
+
+LDFLAGS="${LDFLAGS} -fuse-ld=lld -Wl,--as-needed"

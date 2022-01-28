@@ -1,0 +1,4 @@
+app-portage/elt-patches
+app-portage/gentoolkit
+app-portage/portage-utils   O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-portage/repoman

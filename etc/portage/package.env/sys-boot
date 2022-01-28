@@ -1,0 +1,3 @@
+sys-boot/efibootmgr
+sys-boot/grub
+sys-boot/plymouth

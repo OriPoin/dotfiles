@@ -1,0 +1,11 @@
+CC="/opt/intel/oneapi/compiler/2022.0.1/linux/bin/icx"
+CXX="/opt/intel/oneapi/compiler/2022.0.1/linux/bin/icpx"
+
+HOST="-xHost"
+
+COMMON_FLAGS="${COMMON_FLAGS} ${HOST}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+
+LDFLAGS="${LDFLAGS} -Xlinker -L/opt/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/ -Xlinker -lirc -fuse-ld=lld"

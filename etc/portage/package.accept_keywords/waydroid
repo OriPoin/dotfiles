@@ -1,5 +1,0 @@
-dev-libs/libglibutil			~amd64
-dev-libs/libgbinder				~amd64
-dev-python/gbinder				~amd64
-app-emulation/waydroid			~amd64
-app-emulation/waydroid-image	~amd64

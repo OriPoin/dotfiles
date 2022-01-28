@@ -1,0 +1,4 @@
+sys-auth/pambase
+sys-auth/polkit
+sys-auth/polkit-qt
+sys-auth/realtime-base

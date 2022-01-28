@@ -1,0 +1,4 @@
+sys-firmware/edk2-ovmf
+sys-firmware/ipxe
+sys-firmware/seabios
+sys-firmware/sgabios

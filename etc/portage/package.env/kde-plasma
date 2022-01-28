@@ -1,36 +1,38 @@
-kde-plasma/breeze					lto-noplt-ipa_pta-noseminter
-kde-plasma/breeze-gtk				lto-noplt-ipa_pta-noseminter
-kde-plasma/kactivitymanagerd		lto-noplt-ipa_pta-noseminter
-kde-plasma/kde-cli-tools			lto-noplt-ipa_pta-noseminter
-kde-plasma/kde-gtk-config			lto-noplt-ipa_pta-noseminter
-kde-plasma/kdecoration				lto-noplt-ipa_pta-noseminter
-kde-plasma/kdeplasma-addons			lto-noplt-ipa_pta-noseminter
-kde-plasma/kgamma					lto-noplt-ipa_pta-noseminter
-kde-plasma/khotkeys					lto-noplt-ipa_pta-noseminter
-kde-plasma/kinfocenter				lto-noplt-ipa_pta-noseminter
-kde-plasma/kmenuedit				lto-noplt-ipa_pta-noseminter
-kde-plasma/kscreen					lto-noplt-ipa_pta-noseminter
-kde-plasma/kscreenlocker			lto-noplt-ipa_pta-noseminter
-kde-plasma/ksshaskpass				lto-noplt-ipa_pta-noseminter
-kde-plasma/ksystemstats				lto-noplt-ipa_pta-noseminter
-kde-plasma/kwayland-integration		lto-noplt-ipa_pta-noseminter
-kde-plasma/kwayland-server			lto-noplt-ipa_pta-noseminter
-kde-plasma/kwin						lto-noplt-ipa_pta-noseminter
-kde-plasma/kwrited					lto-noplt-ipa_pta-noseminter
-kde-plasma/layer-shell-qt			lto-noplt-ipa_pta-noseminter
-kde-plasma/libkscreen				lto-noplt-ipa_pta-noseminter
-kde-plasma/libksysguard				lto-noplt-ipa_pta-noseminter
-kde-plasma/libkworkspace			lto-noplt-ipa_pta-noseminter
-kde-plasma/milou					lto-noplt-ipa_pta-noseminter
-kde-plasma/oxygen					lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-desktop			lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-integration		lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-meta				lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-pa				lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-systemmonitor		lto-noplt-ipa_pta-noseminter
-kde-plasma/plasma-workspace			lto-noplt-ipa_pta-noseminter
-kde-plasma/polkit-kde-agent			lto-noplt-ipa_pta-noseminter
-kde-plasma/powerdevil				lto-noplt-ipa_pta-noseminter
-kde-plasma/sddm-kcm					lto-noplt-ipa_pta-noseminter
-kde-plasma/systemsettings			lto-noplt-ipa_pta-noseminter
-kde-plasma/xdg-desktop-portal-kde	lto-noplt-ipa_pta-noseminter
+kde-plasma/breeze					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/breeze-gtk				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kactivitymanagerd		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kde-cli-tools			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kde-gtk-config			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kdecoration				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kdeplasma-addons			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kgamma					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/khotkeys					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kinfocenter				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kmenuedit				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kscreen					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kscreenlocker			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/ksshaskpass				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/ksystemstats				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kwayland-integration		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kwayland-server			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kwin						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/kwrited					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/layer-shell-qt			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/libkscreen				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/libksysguard				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/libkworkspace			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/milou					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/oxygen					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-desktop			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-disks				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-integration		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-meta				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-pa				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-systemmonitor		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/plasma-workspace			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/polkit-kde-agent			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/powerdevil				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/sddm-kcm					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/systemsettings			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/xdg-desktop-portal-kde	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-plasma/xembed-sni-proxy			O3 graphite noplt seminterpos iptpta fast lto devirtlto

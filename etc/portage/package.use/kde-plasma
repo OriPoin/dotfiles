@@ -1,4 +1,4 @@
-kde-plasma/plasma-meta		-browser-integration -wallpapers -legacy-systray -firewall -handbook -crash-handler -crypt -kwallet -smart
+kde-plasma/plasma-meta		-browser-integration -wallpapers -firewall -handbook -crash-handler -crypt -kwallet
 kde-plasma/powerdevil		-wireless
-kde-plasma/plasma-desktop	-kaccounts
-kde-plasma/plasma-workspace	-calculator -calendar
+kde-plasma/plasma-desktop	-kaccounts -semantic-desktop
+kde-plasma/plasma-workspace	-calculator -calendar -semantic-desktop

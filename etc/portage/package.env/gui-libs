@@ -1,2 +1,2 @@
-gui-libs/egl-wayland		lto-noplt-ipa_pta-noseminter
-gui-libs/eglexternalplatform	lto-noplt-ipa_pta-noseminter
+gui-libs/egl-wayland            O3 graphite noplt seminterpos iptpta fast lto devirtlto
+gui-libs/eglexternalplatform    O3 graphite noplt seminterpos iptpta fast lto devirtlto

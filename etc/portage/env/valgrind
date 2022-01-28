@@ -1,0 +1,6 @@
+STRLEN="-fno-builtin-strlen"
+COMMON_FLAGS="${COMMON_FLAGS} ${STRLEN}"
+FEATURES="splitdebug"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"

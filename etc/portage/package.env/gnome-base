@@ -1,5 +1,4 @@
-gnome-base/dconf						lto-noplt-ipa_pta-noseminter
-gnome-base/gconf						lto-noplt-ipa_pta-noseminter
-gnome-base/gnome-keyring				noplt-ipa_pta-noseminter
-gnome-base/gsettings-desktop-schemas	lto-noplt-ipa_pta-noseminter
-gnome-base/librsvg						lto-noplt-ipa_pta-noseminter
+gnome-base/dconf						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+gnome-base/gnome-keyring				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+gnome-base/gsettings-desktop-schemas	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+gnome-base/librsvg						O3 graphite noplt seminterpos iptpta fast lto devirtlto

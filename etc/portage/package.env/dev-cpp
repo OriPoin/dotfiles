@@ -1,5 +1,5 @@
-dev-cpp/abseil-cpp	lto-noplt-ipa_pta-noseminter
-dev-cpp/eigen		lto-noplt-ipa_pta-noseminter
-dev-cpp/glibmm		lto-noplt-ipa_pta-noseminter
-dev-cpp/ms-gsl		lto-noplt-ipa_pta-noseminter
-dev-cpp/range-v3	lto-noplt-ipa_pta-noseminter
+dev-cpp/abseil-cpp  O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-cpp/eigen       O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-cpp/glibmm      O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-cpp/ms-gsl      O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-cpp/range-v3    O3 graphite noplt seminterpos iptpta fast lto devirtlto

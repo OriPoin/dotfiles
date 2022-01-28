@@ -1,5 +1,5 @@
-x11-base/xcb-proto		lto-noplt-ipa_pta-noseminter
-x11-base/xorg-drivers	lto-noplt-ipa_pta-noseminter
-x11-base/xorg-proto		lto-noplt-ipa_pta-noseminter
-x11-base/xorg-server	lto-ipa_pta-noseminter
-x11-base/xwayland		lto-noplt-noseminter
+x11-base/xcb-proto		lto noplt seminterpos
+x11-base/xorg-drivers	lto noplt seminterpos
+x11-base/xorg-proto		lto noplt seminterpos
+x11-base/xorg-server	
+x11-base/xwayland		lto noplt seminterpos

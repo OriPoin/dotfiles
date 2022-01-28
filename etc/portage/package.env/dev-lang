@@ -1,15 +1,15 @@
-dev-lang/dmd				default
-dev-lang/go					default
-dev-lang/nasm				default
-dev-lang/orc				default
-dev-lang/perl				default
-dev-lang/python				python
-dev-lang/python-exec		default
-dev-lang/python-exec-conf	default
-dev-lang/ruby				ruby
-dev-lang/rust				notmpfs
-dev-lang/sassc				default
-dev-lang/spidermonkey		default
-dev-lang/swig				default
-dev-lang/tcl				default
-dev-lang/yasm				default
+dev-lang/dmd				
+dev-lang/go					
+dev-lang/nasm				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/orc				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/perl				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/python				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-lang/python-exec		
+dev-lang/python-exec-conf	
+dev-lang/rust				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/sassc				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/scala-bin			
+dev-lang/spidermonkey		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/tcl				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-lang/typescript         
+dev-lang/yasm				O3 graphite noplt seminterpos iptpta fast lto devirtlto

@@ -1,1 +1,2 @@
-media-gfx/blender	cycles openal openimageio
+media-gfx/blender	collada cycles openal openimageio -sdl
+media-gfx/krita     fftw vc qtmedia

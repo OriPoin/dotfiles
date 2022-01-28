@@ -1,0 +1,6 @@
+STACK="-fno-stack-clash-protection -fno-stack-protector"
+
+COMMON_FLAGS="${COMMON_FLAGS} ${STACK}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"

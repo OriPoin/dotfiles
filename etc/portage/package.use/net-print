@@ -1,1 +1,2 @@
-net-print/cups-filters -pdf
+net-print/cups-filters	-pdf
+net-print/hplip			-kde static-ppds

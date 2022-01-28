@@ -1,2 +1,4 @@
-sys-libs/glibc	custom-cflags
-sys-libs/zlib 	minizip
+sys-libs/glibc		custom-cflags -ssp -multilib
+sys-libs/zlib		minizip
+sys-libs/libosinfo	introspection
+sys-libs/libomp		-abi_x86_32

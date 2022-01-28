@@ -1,49 +1,47 @@
-sys-apps/accountsservice			default
-sys-apps/acl						default
-sys-apps/attr						default
-sys-apps/baselayout					default
-sys-apps/bubblewrap					default
-sys-apps/coreutils					default
-sys-apps/dbus						default
-sys-apps/debianutils				default
-sys-apps/diffutils					default
-sys-apps/dmidecode					default
-sys-apps/dtc						default
-sys-apps/fd							default
-sys-apps/file						default
-sys-apps/findutils					default
-sys-apps/gawk						default
-sys-apps/gentoo-functions			default
-sys-apps/gentoo-systemd-integration	default
-sys-apps/grep						default
-sys-apps/groff						default
-sys-apps/help2man					default
-sys-apps/hwids						default
-sys-apps/install-xattr				default
-sys-apps/iproute2					default
-sys-apps/kbd						default
-sys-apps/keyutils					default
-sys-apps/kmod						default
-sys-apps/less						default
-sys-apps/lsb-release				default
-sys-apps/man-db						default
-sys-apps/man-pages					default
-sys-apps/man-pages-posix			default
-sys-apps/net-tools					default
-sys-apps/osinfo-db					default
-sys-apps/osinfo-db-tools			default
-sys-apps/pciutils					default
-sys-apps/pkgcore					default
-sys-apps/portage					default
-sys-apps/ripgrep					default
-sys-apps/sandbox					default
-sys-apps/sed						default
-sys-apps/shadow						default
-sys-apps/systemd					lto-noplt-ipa_pta-noseminter
-sys-apps/tcp-wrappers				default
-sys-apps/texinfo					default
-sys-apps/usbredir					default
-sys-apps/usbutils					default
-sys-apps/util-linux					default
-sys-apps/which						default
-sys-apps/xdg-desktop-portal			default
+sys-apps/accountsservice			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/acl						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/attr						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/baselayout					
+sys-apps/baselayout-java			
+sys-apps/coreutils					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/dbus						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/debianutils				
+sys-apps/diffutils					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/dmidecode					
+sys-apps/dtc						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/fd							
+sys-apps/file						
+sys-apps/findutils					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/gawk						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/gentoo-functions			
+sys-apps/gentoo-systemd-integration	
+sys-apps/grep						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/groff						
+sys-apps/help2man					
+sys-apps/hwdata						
+sys-apps/iproute2					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/kbd						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/kmod						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/less						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/lm-sensors					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/lsb-release				
+sys-apps/man-db						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/man-pages					
+sys-apps/man-pages-posix			
+sys-apps/net-tools					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/osinfo-db					
+sys-apps/osinfo-db-tools			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/pciutils					
+sys-apps/pkgcore					
+sys-apps/portage					
+sys-apps/ripgrep					
+sys-apps/sandbox					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/sed						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/shadow						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/smartmontools				
+sys-apps/systemd					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/texinfo					
+sys-apps/usbredir					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/util-linux					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/which						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+sys-apps/xdg-desktop-portal			

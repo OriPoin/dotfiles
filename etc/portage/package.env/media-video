@@ -1,3 +1,3 @@
-media-video/obs-studio	lto-noplt-ipa_pta-noseminter
-media-video/vlc			lto-noplt-ipa_pta-noseminter
-media-video/ffmpeg		noseminter
+media-video/ffmpeg      O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-video/obs-studio  O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-video/vlc         O3 graphite noplt seminterpos iptpta fast lto devirtlto

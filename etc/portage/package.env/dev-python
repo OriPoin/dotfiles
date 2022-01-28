@@ -1,0 +1,46 @@
+dev-python/PyQt5					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/PyQt5-sip				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/PySocks					
+dev-python/argcomplete				
+dev-python/certifi					
+dev-python/cffi						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/chardet					
+dev-python/charset_normalizer		
+dev-python/conda					
+dev-python/conda-package-handling	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/cryptography				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/cython					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/dbus-python				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/docutils					
+dev-python/idna						
+dev-python/jinja					
+dev-python/lazy-object-proxy		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/libvirt-python			O3 graphite noplt seminterpos        fast lto
+dev-python/lxml						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/mako						
+dev-python/markupsafe				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/namespace-ruamel			
+dev-python/packaging				
+dev-python/pathspec					
+dev-python/ply						
+dev-python/pycairo					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/pycosat					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/pycparser				
+dev-python/pygments					
+dev-python/pygobject				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/pyopenssl				
+dev-python/pyparsing				
+dev-python/pyyaml					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/requests					
+dev-python/ruamel-yaml				
+dev-python/ruamel-yaml-clib			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/setuptools				
+dev-python/setuptools_scm			
+dev-python/sip						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/six						
+dev-python/snakeoil					
+dev-python/toml						
+dev-python/tomli					
+dev-python/tqdm						
+dev-python/tree-sitter				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+dev-python/urllib3					

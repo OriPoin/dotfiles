@@ -1,11 +1,12 @@
-app-arch/bzip2		lto-noplt-ipa_pta-noseminter
-app-arch/cpio		lto-noplt-ipa_pta-noseminter
-app-arch/gzip		lto-noplt-ipa_pta-noseminter
-app-arch/libarchive	lto-noplt-ipa_pta-noseminter
-app-arch/lz4		lto-noplt-ipa_pta-noseminter
-app-arch/p7zip		lto-noplt-ipa_pta-noseminter
-app-arch/rpm2targz	lto-noplt-ipa_pta-noseminter
-app-arch/tar		lto-noplt-ipa_pta-noseminter
-app-arch/unzip		lto-noplt-ipa_pta-noseminter
-app-arch/xz-utils	lto-noplt-ipa_pta-noseminter
-app-arch/zstd		lto-noplt-ipa_pta-noseminter
+app-arch/brotli     O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/bzip2		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/cpio		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/gzip		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/libarchive	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/lz4		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/rar        
+app-arch/tar		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/unzip		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/xz-utils	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/zip        O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-arch/zstd		O3 graphite noplt seminterpos iptpta fast lto devirtlto

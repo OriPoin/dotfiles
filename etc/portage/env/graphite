@@ -1,0 +1,6 @@
+GRAPHITE="-fgraphite-identity -floop-nest-optimize"
+
+COMMON_FLAGS="${COMMON_FLAGS} ${GRAPHITE}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"

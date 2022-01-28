@@ -1,4 +1,3 @@
-app-editors/vim						lto-noplt-ipa_pta-noseminter
-app-editors/vim-core				lto-noplt-ipa_pta-noseminter
-app-editors/visual-studio-code-bin	default
-
+app-editors/vim						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-editors/vim-core				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-editors/visual-studio-code-bin	

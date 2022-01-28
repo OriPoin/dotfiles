@@ -1,2 +1,6 @@
-sys-apps/dbus		user-session
-sys-apps/portage	-rsync-verify -xattr
+sys-apps/dbus			user-session
+sys-apps/portage		-rsync-verify -xattr
+sys-apps/kmod		    zstd
+sys-apps/smartmontools	-daemon
+sys-apps/iproute2		-iptables
+sys-apps/sandbox		-abi_x86_32

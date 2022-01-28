@@ -1,7 +1,3 @@
-O_FLAGS="-march=native -O2 -pipe"
-GRAPHITE="-fgraphite-identity -floop-nest-optimize"
-SSP_FLAGS="-fno-stack-protector"
-ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${ALIGN}"
+MALLOC="-ljemalloc"
 
-EXTRA_ECONF="--disable-initial-exec-tls"
+LDFLAGS="${LDFLAGS} MALLOC"

@@ -1,10 +1,12 @@
-net-misc/aria2				lto-noplt-ipa_pta-noseminter
-net-misc/curl				lto-noplt-ipa_pta-noseminter
-net-misc/iputils			lto-noplt-ipa_pta-noseminter
-net-misc/onedrive			lto-noplt-ipa_pta-noseminter
-net-misc/openssh			lto-noplt-ipa_pta-noseminter
-net-misc/rsync				lto-noplt-ipa_pta-noseminter
-net-misc/spice-gtk			lto-noplt-ipa_pta-noseminter
-net-misc/wget				lto-noplt-ipa_pta-noseminter
-net-misc/x11-ssh-askpass	lto-noplt-ipa_pta-noseminter
-net-misc/zerotier			default
+net-misc/aria2				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/curl				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/freerdp            O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/iperf              O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/iputils			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/onedrive			
+net-misc/openssh			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/rsync				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/spice-gtk			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/wget				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/x11-ssh-askpass	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+net-misc/zerotier			O3 polly    noplt                    fast lto           clang irc

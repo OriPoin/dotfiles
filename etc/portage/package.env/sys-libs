@@ -1,18 +1,22 @@
-sys-libs/binutils-libs	default
-sys-libs/e2fsprogs-libs	default
-sys-libs/efivar			default
-sys-libs/gdbm			default
-sys-libs/glibc			glibc
-sys-libs/kpmcore		default
-sys-libs/libblockdev	default
-sys-libs/libcap			default
-sys-libs/libcap-ng		default
-sys-libs/libosinfo		default
-sys-libs/libseccomp		default
-sys-libs/libutempter	default
-sys-libs/mtdev			default
-sys-libs/ncurses		default
-sys-libs/pam			default
-sys-libs/readline		default
-sys-libs/timezone-data	default
-sys-libs/zlib			default
+sys-libs/binutils-libs
+sys-libs/compiler-rt
+sys-libs/compiler-rt-sanitizers
+sys-libs/e2fsprogs-libs
+sys-libs/efivar
+sys-libs/gdbm
+sys-libs/glibc
+sys-libs/libblockdev
+sys-libs/libcap
+sys-libs/libcap-ng
+sys-libs/libomp
+sys-libs/libosinfo              
+sys-libs/libutempter
+sys-libs/libxcrypt
+sys-libs/libunwind
+sys-libs/mtdev
+sys-libs/ncurses
+sys-libs/ncurses-compat
+sys-libs/pam
+sys-libs/readline
+sys-libs/timezone-data
+sys-libs/zlib

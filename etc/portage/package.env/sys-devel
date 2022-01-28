@@ -1,22 +1,26 @@
-sys-devel/autoconf			default
-sys-devel/autoconf-archive	default
-sys-devel/autoconf-wrapper	default
-sys-devel/automake			default
-sys-devel/automake-wrapper	default
-sys-devel/bc				default
-sys-devel/binutils			default
-sys-devel/binutils-config	default
-sys-devel/bison				default
-sys-devel/crossdev			default
-sys-devel/flex				default
-sys-devel/gcc				notmpfs
-sys-devel/gcc-config		default
-sys-devel/gdb				default
-sys-devel/gettext			default
-sys-devel/gnuconfig			default
-sys-devel/libtool			default
-sys-devel/llvm				default
-sys-devel/llvm-common		default
-sys-devel/m4				default
-sys-devel/make				default
-sys-devel/patch				default
+sys-devel/autoconf
+sys-devel/autoconf-archive
+sys-devel/autoconf-wrapper
+sys-devel/automake
+sys-devel/automake-wrapper
+sys-devel/bc
+sys-devel/binutils
+sys-devel/binutils-config
+sys-devel/bison
+sys-devel/clang				clang
+sys-devel/clang-common
+sys-devel/clang-runtime
+sys-devel/flex
+sys-devel/gcc
+sys-devel/gcc-config
+sys-devel/gdb
+sys-devel/gettext
+sys-devel/gnuconfig
+sys-devel/libtool
+sys-devel/lld
+sys-devel/llvm
+sys-devel/llvm-common
+sys-devel/llvmgold
+sys-devel/m4
+sys-devel/make
+sys-devel/patch

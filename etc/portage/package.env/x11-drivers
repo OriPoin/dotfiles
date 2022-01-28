@@ -1,2 +1,2 @@
-x11-drivers/nvidia-drivers		lto-noplt-ipa_pta-noseminter
-x11-drivers/xf86-input-libinput	lto-noplt-ipa_pta-noseminter
+x11-drivers/nvidia-drivers		lto noplt seminterpos
+x11-drivers/xf86-input-libinput	lto noplt seminterpos

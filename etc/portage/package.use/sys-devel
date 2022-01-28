@@ -1,1 +1,4 @@
-sys-devel/gcc graphite zstd custom-cflags
+sys-devel/gcc			graphite zstd custom-cflags -ssp -pch -fortran -multilib
+sys-devel/gettext		git
+sys-devel/clang			default-compiler-rt default-lld
+sys-devel/clang-runtime	-abi_x86_32

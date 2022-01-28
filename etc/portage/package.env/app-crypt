@@ -1,10 +1,10 @@
-app-crypt/argon2	lto-noplt-ipa_pta-noseminter
-app-crypt/gcr		noplt-ipa_pta-noseminter
-app-crypt/gnupg		lto-noplt-ipa_pta-noseminter
-app-crypt/gpgme		lto-noplt-ipa_pta-noseminter
-app-crypt/libb2		lto-noplt-ipa_pta-noseminter
-app-crypt/libmd		lto-noplt-ipa_pta-noseminter
-app-crypt/libsecret	lto-noplt-ipa_pta-noseminter
-app-crypt/p11-kit	lto-noplt-ipa_pta-noseminter
-app-crypt/pinentry	lto-noplt-ipa_pta-noseminter
-app-crypt/rhash		lto-noplt-ipa_pta-noseminter
+app-crypt/argon2	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/gcr		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/gnupg		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/gpgme		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/libb2		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/libmd		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/libsecret	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/p11-kit	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/pinentry	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-crypt/rhash		O3 graphite noplt seminterpos iptpta fast lto devirtlto

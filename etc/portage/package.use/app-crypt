@@ -1,2 +1,3 @@
 app-crypt/pinentry gnome-keyring -gtk
 app-crypt/gpgme -qt5
+app-crypt/mit-krb5 -keyutils

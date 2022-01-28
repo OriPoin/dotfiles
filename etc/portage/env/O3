@@ -1,0 +1,7 @@
+O3="-march=native -O3 -pipe"
+
+COMMON_FLAGS="${O3}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+

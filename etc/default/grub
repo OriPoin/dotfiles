@@ -14,11 +14,11 @@ GRUB_DISTRIBUTOR="Gentoo"
 #GRUB_DEFAULT=0
 
 # Boot the default entry this many seconds after the menu is displayed
-GRUB_TIMEOUT=1
+GRUB_TIMEOUT=0
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="quiet splash threadirqs nowatchdog dev.i915.perf_stream_paranoid=0 intel_iommu=igfx_on i915.enable_guc=2 i915.enable_fbc=1 i915.fastboot=1 snd_hda_intel.probe_mask=1 usbhid.mousepoll=0 mitigations=off intel_idle.max_cstate=0 ipv6.disable=1"
+GRUB_CMDLINE_LINUX="splash quiet nowatchdog intel_iommu=igfx_on i915.enable_guc=2 i915.enable_fbc=1 i915.fastboot=1 snd_hda_intel.probe_mask=1 usbhid.mousepoll=0 mitigations=off intel_idle.max_cstate=0"
 #
 # Examples:
 #
@@ -50,7 +50,6 @@ GRUB_GFXPAYLOAD_LINUX=keep
 # The starfield is by default provided with use truetype.
 # NOTE: when enabling custom theme, ensure you have required font/etc.
 #GRUB_THEME="/boot/grub/themes/starfield/theme.txt"
-GRUB_THEME=/boot/grub/themes/grub-bgrt/theme.txt
 
 # Background image used on graphical terminal.
 # Can be in various bitmap formats.

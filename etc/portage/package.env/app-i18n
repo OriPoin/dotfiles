@@ -1,8 +1,9 @@
-app-i18n/fcitx5					lto-noplt-ipa_pta-noseminter
-app-i18n/fcitx5-chinese-addons	lto-noplt-ipa_pta-noseminter
-app-i18n/fcitx5-configtool		lto-noplt-ipa_pta-noseminter
-app-i18n/fcitx5-gtk				lto-noplt-ipa_pta-noseminter
-app-i18n/fcitx5-qt				lto-noplt-ipa_pta-noseminter
-app-i18n/libime					lto-noplt-ipa_pta-noseminter
-app-i18n/opencc					lto-noplt-ipa_pta-noseminter
-app-i18n/unicode-cldr			lto-noplt-ipa_pta-noseminter
+app-i18n/fcitx5					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/fcitx5-chinese-addons	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/fcitx5-configtool		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/fcitx5-gtk				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/fcitx5-meta            
+app-i18n/fcitx5-qt				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/libime					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/opencc					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-i18n/unicode-cldr			O3 graphite noplt seminterpos iptpta fast lto devirtlto

@@ -1,0 +1,9 @@
+sys-fs/cryptsetup
+sys-fs/dosfstools
+sys-fs/e2fsprogs
+sys-fs/f2fs-tools
+sys-fs/fuse
+sys-fs/fuse-common
+sys-fs/lvm2
+sys-fs/udev-init-scripts
+sys-fs/udisks

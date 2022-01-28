@@ -1,8 +1,9 @@
-kde-apps/dolphin		lto-noplt-ipa_pta-noseminter
-kde-apps/filelight		lto-noplt-ipa_pta-noseminter
-kde-apps/gwenview		lto-noplt-ipa_pta-noseminter
-kde-apps/kio-extras		lto-noplt-ipa_pta-noseminter
-kde-apps/kipi-plugins	lto-noplt-ipa_pta-noseminter
-kde-apps/konsole		lto-noplt-ipa_pta-noseminter
-kde-apps/libkipi		lto-noplt-ipa_pta-noseminter
-kde-apps/spectacle		lto-noplt-ipa_pta-noseminter
+kde-apps/ark			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/dolphin		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/filelight		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/gwenview		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/kio-extras		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/kipi-plugins	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/konsole		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/libkipi		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+kde-apps/spectacle		O3 graphite noplt seminterpos iptpta fast lto devirtlto

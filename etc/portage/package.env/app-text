@@ -1,18 +1,21 @@
-app-text/asciidoc					lto-noplt-ipa_pta-noseminter
-app-text/build-docbook-catalog		lto-noplt-ipa_pta-noseminter
-app-text/docbook-xml-dtd			lto-noplt-ipa_pta-noseminter
-app-text/docbook-xsl-ns-stylesheets	lto-noplt-ipa_pta-noseminter
-app-text/docbook-xsl-stylesheets	lto-noplt-ipa_pta-noseminter
-app-text/enchant					lto-noplt-ipa_pta-noseminter
-app-text/hunspell					lto-noplt-ipa_pta-noseminter
-app-text/iso-codes					lto-noplt-ipa_pta-noseminter
-app-text/libpaper					lto-noplt-ipa_pta-noseminter
-app-text/manpager					lto-noplt-ipa_pta-noseminter
-app-text/poppler					lto-noplt-ipa_pta-noseminter
-app-text/poppler-data				lto-noplt-ipa_pta-noseminter
-app-text/qpdf						lto-noplt-ipa_pta-noseminter
-app-text/rman						lto-noplt-ipa_pta-noseminter
-app-text/sgml-common				lto-noplt-ipa_pta-noseminter
-app-text/tree						lto-noplt-ipa_pta-noseminter
-app-text/xhtml1						lto-noplt-ipa_pta-noseminter
-app-text/xmlto						lto-noplt-ipa_pta-noseminter
+app-text/asciidoc					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/build-docbook-catalog		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/docbook-dsssl-stylesheets	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/docbook-xml-dtd			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/docbook-xsl-ns-stylesheets	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/docbook-xsl-stylesheets	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/enchant					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/gnome-doc-utils			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/hunspell					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/iso-codes					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/libpaper					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/manpager					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/poppler					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/poppler-data				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/qpdf						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/rman						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/scrollkeeper-dtd			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/sgml-common				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/tree						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/xhtml1						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-text/xmlto						O3 graphite noplt seminterpos iptpta fast lto devirtlto

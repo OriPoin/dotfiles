@@ -1,0 +1,3 @@
+dev-lang/python	lto pgo
+dev-lang/spidermonkey lto clang
+dev-lang/ruby jit

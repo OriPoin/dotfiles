@@ -1,74 +1,84 @@
-dev-libs/atk								lto-noplt-ipa_pta-noseminter
-dev-libs/boehm-gc							lto-noplt-ipa_pta-noseminter
-dev-libs/boost								lto-noplt-ipa_pta-noseminter
-dev-libs/dbus-glib							lto-noplt-ipa_pta-noseminter
-dev-libs/double-conversion					lto-noplt-ipa_pta-noseminter
-dev-libs/elfutils							noplt-ipa_pta-noseminter
-dev-libs/ell								lto-noplt-ipa_pta-noseminter
-dev-libs/expat								lto-noplt-ipa_pta-noseminter
-dev-libs/fribidi							lto-noplt-ipa_pta-noseminter
-dev-libs/geoip								lto-noplt-ipa_pta-noseminter
-dev-libs/glib								lto-noplt-ipa_pta-noseminter
-dev-libs/gmp								lto-noplt-ipa_pta-noseminter
-dev-libs/gobject-introspection				lto-noplt-ipa_pta-noseminter
-dev-libs/gobject-introspection-common		lto-noplt-ipa_pta-noseminter
-dev-libs/icu								lto-noplt-ipa_pta-noseminter
-dev-libs/isl								lto-noplt-ipa_pta-noseminter
-dev-libs/jansson							lto-noplt-ipa_pta-noseminter
-dev-libs/jemalloc							jemalloc
-dev-libs/json-c								lto-noplt-ipa_pta-noseminter
-dev-libs/json-glib							lto-noplt-ipa_pta-noseminter
-dev-libs/jsoncpp							lto-noplt-ipa_pta-noseminter
-dev-libs/libaio								noplt-ipa_pta-noseminter
-dev-libs/libassuan							lto-noplt-ipa_pta-noseminter
-dev-libs/libatasmart						lto-noplt-ipa_pta-noseminter
-dev-libs/libatomic_ops						lto-noplt-ipa_pta-noseminter
-dev-libs/libbsd								noplt-ipa_pta-noseminter
-dev-libs/libbytesize						lto-noplt-ipa_pta-noseminter
-dev-libs/libdbusmenu-qt						lto-noplt-ipa_pta-noseminter
-dev-libs/libebml							lto-noplt-ipa_pta-noseminter
-dev-libs/libevdev							lto-noplt-ipa_pta-noseminter
-dev-libs/libevent							lto-noplt-ipa_pta-noseminter
-dev-libs/libffi								lto-noplt-ipa_pta-noseminter
-dev-libs/libfmt								lto-noplt-ipa_pta-noseminter
-dev-libs/libgcrypt							lto-noplt-ipa_pta-noseminter
-dev-libs/libgpg-error						lto-noplt-ipa_pta-noseminter
-dev-libs/libgudev							lto-noplt-ipa_pta-noseminter
-dev-libs/libinput							lto-noplt-ipa_pta-noseminter
-dev-libs/libksba							lto-noplt-ipa_pta-noseminter
-dev-libs/libltdl							lto-noplt-ipa_pta-noseminter
-dev-libs/libnatspec							lto-noplt-ipa_pta-noseminter
-dev-libs/libnl								lto-noplt-ipa_pta-noseminter
-dev-libs/libpcre							lto-noplt-ipa_pta-noseminter
-dev-libs/libpcre2							lto-noplt-ipa_pta-noseminter
-dev-libs/libpipeline						lto-noplt-ipa_pta-noseminter
-dev-libs/libsass							lto-noplt-ipa_pta-noseminter
-dev-libs/libsigc++							lto-noplt-ipa_pta-noseminter
-dev-libs/libtasn1							lto-noplt-ipa_pta-noseminter
-dev-libs/libunistring						lto-noplt-ipa_pta-noseminter
-dev-libs/libusb								lto-noplt-ipa_pta-noseminter
-dev-libs/libuv								lto-noplt-ipa_pta-noseminter
-dev-libs/libxml2							lto-noplt-ipa_pta-noseminter
-dev-libs/libxslt							lto-noplt-ipa_pta-noseminter
-dev-libs/libyaml							lto-noplt-ipa_pta-noseminter
-dev-libs/lzo								lto-noplt-ipa_pta-noseminter
-dev-libs/mpc								lto-noplt-ipa_pta-noseminter
-dev-libs/mpfr								lto-noplt-ipa_pta-noseminter
-dev-libs/nettle								lto-noplt-ipa_pta-noseminter
-dev-libs/npth								lto-noplt-ipa_pta-noseminter
-dev-libs/nspr								lto-noplt-ipa_pta-noseminter
-dev-libs/nss								lto-noplt-ipa_pta-noseminter
-dev-libs/opencl-icd-loader					lto-noplt-ipa_pta-noseminter
-dev-libs/openssl							lto-noplt-ipa_pta-noseminter
-dev-libs/plasma-wayland-protocols			lto-noplt-ipa_pta-noseminter
-dev-libs/popt								lto-noplt-ipa_pta-noseminter
-dev-libs/protobuf							lto-noplt-ipa_pta-noseminter
-dev-libs/quazip								lto-noplt-ipa_pta-noseminter
-dev-libs/tree-sitter						lto-noplt-ipa_pta-noseminter
-dev-libs/uthash								lto-noplt-ipa_pta-noseminter
-dev-libs/v2ray-domain-list-community-bin	default
-dev-libs/v2ray-geoip-bin					default
-dev-libs/wayland							lto-noplt-ipa_pta-noseminter
-dev-libs/wayland-protocols					lto-noplt-ipa_pta-noseminter
-dev-libs/xxhash								lto-noplt-ipa_pta-noseminter
-dev-libs/yajl								lto-noplt-ipa_pta-noseminter
+dev-libs/atk
+dev-libs/boehm-gc
+dev-libs/boost
+dev-libs/dbus-glib
+dev-libs/double-conversion
+dev-libs/elfutils
+dev-libs/ell
+dev-libs/expat
+dev-libs/fribidi
+dev-libs/geoip
+dev-libs/glib
+dev-libs/gmp
+dev-libs/gobject-introspection
+dev-libs/gobject-introspection-common
+dev-libs/icu
+dev-libs/isl
+dev-libs/jansson
+dev-libs/jemalloc
+dev-libs/json-c
+dev-libs/json-glib
+dev-libs/jsoncpp
+dev-libs/libaio
+dev-libs/libappindicator
+dev-libs/libassuan
+dev-libs/libatasmart
+dev-libs/libatomic_ops
+dev-libs/libbsd
+dev-libs/libbytesize
+dev-libs/libdbusmenu
+dev-libs/libdbusmenu-qt
+dev-libs/libebml
+dev-libs/libevdev
+dev-libs/libevent
+dev-libs/libffi
+dev-libs/libfmt
+dev-libs/libgcrypt
+dev-libs/libgpg-error
+dev-libs/libgudev
+dev-libs/libinput
+dev-libs/libksba
+dev-libs/libltdl
+dev-libs/libnatspec
+dev-libs/libnl
+dev-libs/libpcre
+dev-libs/libpcre2
+dev-libs/libpipeline
+dev-libs/libsass
+dev-libs/libsigc++
+dev-libs/libsodium
+dev-libs/libtasn1
+dev-libs/libunistring
+dev-libs/libusb
+dev-libs/libuv
+dev-libs/libxml2
+dev-libs/libxslt
+dev-libs/libyaml
+dev-libs/lzo
+dev-libs/mpc
+dev-libs/mpfr
+dev-libs/nettle
+dev-libs/npth
+dev-libs/nspr
+dev-libs/nss
+dev-libs/oneapi-common
+dev-libs/oneapi-compiler-shared
+dev-libs/oneapi-dpcpp-debugger
+dev-libs/oneapi-libdpstd
+dev-libs/oneapi-openmp
+dev-libs/oneapi-tbb
+dev-libs/openssl
+dev-libs/plasma-wayland-protocols
+dev-libs/popt
+dev-libs/protobuf
+dev-libs/quazip
+dev-libs/re2
+dev-libs/tree-sitter
+dev-libs/uthash
+dev-libs/v2ray-domain-list-community-bin
+dev-libs/v2ray-geoip-bin
+dev-libs/vc
+dev-libs/wayland
+dev-libs/wayland-protocols
+dev-libs/xxhash
+dev-libs/yajl

@@ -3,20 +3,38 @@
 # Please consult /usr/share/portage/config/make.conf.example for a more
 # detailed example.
 
-#GCC
+# GCC
+#O_FLAGS="-march=native -O2 -pipe"
+#GRAPHITE="-fgraphite-identity -floop-nest-optimize"
+#STACK="-fno-stack-clash-protection -fno-stack-protector"
+#NOPLT="-fno-plt"
+#SEMINTERPOS="-fno-semantic-interposition"
+#COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${STACK} ${IPAPTA} ${NOPLT} ${SEMINTERPOS}"
+
+# oneAPI
+#CC="/opt/intel/oneapi/compiler/2022.0.1/linux/bin/icx"
+#CXX="/opt/intel/oneapi/compiler/2022.0.1/linux/bin/icpx"
+#O_FLAGS="-xHost -march=native -O2 -pipe"
+#MATH="-fp-model=precise"
+#COMMON_FLAGS="${O_FLAGS} ${STACK} ${IPAPTA} ${NOPLT} ${SEMINTERPOS} ${MATH}"
+
+# Clang
+CC="clang"
+CXX="clang++"
+
 O_FLAGS="-march=native -O3 -pipe"
-GRAPHITE="-fgraphite-identity -floop-nest-optimize"
-SSP_FLAGS="-fno-stack-protector"
+STACK="-fno-stack-clash-protection -fno-stack-protector"
 NOPLT="-fno-plt"
-IPAPTA="-fipa-pta"
 SEMINTERPOS="-fno-semantic-interposition"
-ALIGN="-fno-align-functions -fno-align-jumps -fno-align-loops -fno-align-labels"
-LOOP="-funroll-loops"
-COMMON_FLAGS="${O_FLAGS} ${GRAPHITE} ${SSP_FLAGS} ${IPAPTA} ${PTHREAD} ${ALIGN} ${NOPLT} ${SEMINTERPOS} ${LOOP}"
+MALLOC="-ljemalloc"
+POLLY="-Xclang -load -Xclang LLVMPolly.so -mllvm -polly"
+
+COMMON_FLAGS="${O_FLAGS} ${STACK} ${IPAPTA} ${NOPLT} ${SEMINTERPOS} ${POLLY}"
+
 
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
-LDFLAGS="-Wl,-O3 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common -Wl,--strip-all"
+LDFLAGS="${LDFLAGS} ${MALLOC} -fuse-ld=lld -Xlinker -L/opt/intel/oneapi/compiler/2022.0.1/linux/compiler/lib/intel64_lin/ -Xlinker -lirc -Wl,--as-needed"
 
 EXTRA_GN="optimize_webui=true \
 enable_vr=false \
@@ -26,22 +44,13 @@ v8_symbol_level=0 \
 x64_arch=\"native\" \
 target_cpu=\"x64\" \
 target_environment=\"device\" \
-target_os=\"linux\""
+target_os=\"linux\" \
+chrome_pgo_phase=2 \
+is_clang=true \
+use_lld=true \
+thin_lto_enable_optimizations=true \
+use_thin_lto=true"
+
 #google_api_key="AIzaSyACiDy0R2aIi90jtpiGLwCjHioOChOYNR4"
 #google_default_client_id="1019942342462-s5shbjq9u8u1m3aag5b862fr7m4b5soh.apps.googleusercontent.com"
 #google_default_client_secret="GA5yEtcKYlM6ucSr_ABlP02U"
-
-EMERGE_DEFAULT_OPTS="--keep-going --with-bdeps=y --ask --verbose"
-
-# NOTE: This stage was built with the bindist Use flag enabled
-PORTDIR="/var/db/repos/gentoo"
-DISTDIR="/var/cache/distfiles"
-PKGDIR="/var/cache/binpkgs"
-PORTAGE_TMPDIR="/var/tmp/notmpfs"
-
-# This sets the language of build output to English.
-# Please keep this setting intact when reporting bugs.
-LC_MESSAGES=C
-
-# Makeopt
-MAKEOPTS="-j8"

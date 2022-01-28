@@ -1,2 +1,3 @@
 dev-libs/v2ray-geoip-bin ~amd64
 dev-libs/v2ray-domain-list-community-bin ~amd64
+dev-libs/mimalloc ~amd64

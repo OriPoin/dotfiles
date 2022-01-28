@@ -1,28 +1,28 @@
-dev-qt/designer				lto-noplt-ipa_pta-noseminter
-dev-qt/linguist-tools		lto-noplt-ipa_pta-noseminter
-dev-qt/qdbus				lto-noplt-ipa_pta-noseminter
-dev-qt/qtchooser			lto-noplt-ipa_pta-noseminter
-dev-qt/qtconcurrent			lto-noplt-ipa_pta-noseminter
-dev-qt/qtcore				noplt-ipa_pta-noseminter
-dev-qt/qtdbus				lto-noplt-ipa_pta-noseminter
-dev-qt/qtdeclarative		lto-noplt-ipa_pta-noseminter
-dev-qt/qtgraphicaleffects	lto-noplt-ipa_pta-noseminter
-dev-qt/qtgui				lto-noplt-noseminter
-dev-qt/qtimageformats		lto-noplt-ipa_pta-noseminter
-dev-qt/qtmultimedia			lto-noplt-ipa_pta-noseminter
-dev-qt/qtnetwork			lto-noplt-ipa_pta-noseminter
-dev-qt/qtopengl				lto-noplt-ipa_pta-noseminter
-dev-qt/qtpaths				lto-noplt-ipa_pta-noseminter
-dev-qt/qtprintsupport		lto-noplt-ipa_pta-noseminter
-dev-qt/qtquickcontrols		lto-noplt-ipa_pta-noseminter
-dev-qt/qtquickcontrols2		lto-noplt-ipa_pta-noseminter
-dev-qt/qtsensors			lto-noplt-ipa_pta-noseminter
-dev-qt/qtsql				lto-noplt-ipa_pta-noseminter
-dev-qt/qtsvg				lto-noplt-ipa_pta-noseminter
-dev-qt/qttest				lto-noplt-ipa_pta-noseminter
-dev-qt/qtvirtualkeyboard	lto-noplt-ipa_pta-noseminter
-dev-qt/qtwayland			lto-noplt-ipa_pta-noseminter
-dev-qt/qtwidgets			lto-noplt-ipa_pta-noseminter
-dev-qt/qtx11extras			lto-noplt-ipa_pta-noseminter
-dev-qt/qtxml				lto-noplt-ipa_pta-noseminter
-dev-qt/qtxmlpatterns		lto-noplt-ipa_pta-noseminter
+dev-qt/designer				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/linguist-tools		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qdbus				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtchooser			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtconcurrent			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtcore				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtdbus				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtdeclarative		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtgraphicaleffects	O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtgui				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtimageformats		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtmultimedia			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtnetwork			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtopengl				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtpaths				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtprintsupport		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtquickcontrols		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtquickcontrols2		O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtsensors			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtsql				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtsvg				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qttest				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtvirtualkeyboard	O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtwayland			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtwidgets			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtx11extras			O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtxml				O3 graphite noplt seminterpos iptpta lto devirtlto
+dev-qt/qtxmlpatterns		O3 graphite noplt seminterpos iptpta lto devirtlto

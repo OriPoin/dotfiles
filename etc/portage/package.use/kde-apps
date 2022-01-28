@@ -1,2 +1,4 @@
-kde-apps/dolphin	-activities
-kde-apps/kio-extras	-activities -sftp -phonon
+kde-apps/dolphin		-activities -semantic-desktop
+kde-apps/kio-extras		-activities -sftp -phonon
+kde-apps/gwenview		-activities -semantic-desktop
+kde-apps/kipi-plugins	-remotestorage

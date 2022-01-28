@@ -1,6 +1,4 @@
-media-gfx/exiv2			lto-noplt-ipa_pta-noseminter
-media-gfx/graphite2		lto-noplt-ipa_pta-noseminter
-media-gfx/imagemagick	lto-noplt-ipa_pta-noseminter
-media-gfx/krita			lto-noplt-ipa_pta-noseminter
-media-gfx/potrace		lto-noplt-ipa_pta-noseminter
-media-gfx/qrencode		lto-noplt-ipa_pta-noseminter
+media-gfx/exiv2			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-gfx/graphite2		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-gfx/krita			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-gfx/qrencode		O3 graphite noplt seminterpos iptpta fast lto devirtlto

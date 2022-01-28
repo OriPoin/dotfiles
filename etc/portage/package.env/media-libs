@@ -1,64 +1,61 @@
-media-libs/a52dec					noplt-ipa_pta-noseminter
-media-libs/alsa-lib					noplt-ipa_pta-noseminter
-media-libs/alsa-topology-conf		noplt-ipa_pta-noseminter
-media-libs/alsa-ucm-conf			noplt-ipa_pta-noseminter
-media-libs/audiofile				noplt-ipa_pta-noseminter
-media-libs/dav1d					noplt-ipa_pta-noseminter
-media-libs/flac						noplt-ipa_pta-noseminter
-media-libs/fontconfig				noplt-ipa_pta-noseminter
-media-libs/freeglut					noplt-ipa_pta-noseminter
-media-libs/freetype					noplt-ipa_pta-noseminter
-media-libs/giflib					noplt-ipa_pta-noseminter
-media-libs/glu						noplt-ipa_pta-noseminter
-media-libs/graphene					noplt-ipa_pta-noseminter
-media-libs/gst-plugins-base			noplt-ipa_pta-noseminter
-media-libs/gst-plugins-good			noplt-ipa_pta-noseminter
-media-libs/gstreamer				noplt-ipa_pta-noseminter
-media-libs/harfbuzz					noplt-ipa_pta-noseminter
-media-libs/imlib2					noplt-ipa_pta-noseminter
-media-libs/kcolorpicker				noplt-ipa_pta-noseminter
-media-libs/kimageannotator			noplt-ipa_pta-noseminter
-media-libs/lcms						noplt-ipa_pta-noseminter
-media-libs/libcanberra				noplt-ipa_pta-noseminter
-media-libs/libdca					noplt-ipa_pta-noseminter
-media-libs/libdmtx					noplt-ipa_pta-noseminter
-media-libs/libdvbpsi				noplt-ipa_pta-noseminter
-media-libs/libdvdcss				noplt-ipa_pta-noseminter
-media-libs/libdvdnav				noplt-ipa_pta-noseminter
-media-libs/libdvdread				noplt-ipa_pta-noseminter
-media-libs/libepoxy					noplt-ipa_pta-noseminter
-media-libs/libexif					noplt-ipa_pta-noseminter
-media-libs/libglvnd					noplt-ipa_pta-noseminter
-media-libs/libid3tag				noplt-ipa_pta-noseminter
-media-libs/libjpeg-turbo			noplt-ipa_pta-noseminter
-media-libs/libmad					noplt-ipa_pta-noseminter
-media-libs/libmatroska				noplt-ipa_pta-noseminter
-media-libs/libmng					noplt-ipa_pta-noseminter
-media-libs/libmpeg2					noplt-ipa_pta-noseminter
-media-libs/libogg					noplt-ipa_pta-noseminter
-media-libs/libpng					noplt-ipa_pta-noseminter
-media-libs/libraw					noplt-ipa_pta-noseminter
-media-libs/libsamplerate			noplt-ipa_pta-noseminter
-media-libs/libsdl					noplt-ipa_pta-noseminter
-media-libs/libsdl2					noplt-ipa_pta-noseminter
-media-libs/libsndfile				noplt-ipa_pta-noseminter
-media-libs/libtgvoip				noplt-ipa_pta-noseminter
-media-libs/libvorbis				noplt-ipa_pta-noseminter
-media-libs/libvpx					noplt-ipa_pta-noseminter
-media-libs/libwebp					noplt-ipa_pta-noseminter
-media-libs/mesa						noplt-ipa_pta-noseminter
-media-libs/nv-codec-headers			noplt-ipa_pta-noseminter
-media-libs/openal					noplt-ipa_pta-noseminter
-media-libs/openh264					noplt-ipa_pta-noseminter
-media-libs/openjpeg					noplt-ipa_pta-noseminter
-media-libs/opus						noplt-ipa_pta-noseminter
-media-libs/phonon					noplt-ipa_pta-noseminter
-media-libs/phonon-vlc				noplt-ipa_pta-noseminter
-media-libs/rnnoise					noplt-ipa_pta-noseminter
-media-libs/speexdsp					noplt-ipa_pta-noseminter
-media-libs/tg_owt					lto-noplt-ipa_pta-noseminter
-media-libs/tiff						noplt-ipa_pta-noseminter
-media-libs/vulkan-loader			noplt-ipa_pta-noseminter
-media-libs/webrtc-audio-processing	noplt-ipa_pta-noseminter
-media-libs/x264						noplt-ipa_pta-noseminter
-media-libs/xvid						noplt-ipa_pta-noseminter
+media-libs/a52dec					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/alsa-lib					O3 graphite noplt seminterpos iptpta fast
+media-libs/alsa-topology-conf		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/alsa-ucm-conf			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/dav1d					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/flac						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/fontconfig				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/freeglut					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/freetype					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/giflib					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/glu						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/graphene					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/gst-plugins-base			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/gst-plugins-good			O3 graphite noplt seminterpos iptpta fast
+media-libs/gstreamer				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/harfbuzz					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/kcolorpicker				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/kimageannotator			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/lcms						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libcanberra				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdca					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdmtx					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdvbpsi				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdvdcss				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdvdnav				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libdvdread				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libepoxy					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libglvnd					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libjpeg-turbo			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libmad					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libmatroska				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libmng					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libmpeg2					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libogg					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libpng					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libraw					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libsamplerate			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libsdl2					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libsndfile				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libtgvoip				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libtheora				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libvorbis				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libvpx					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/libwebp					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/mesa						O3 graphite noplt seminterpos             lto devirtlto
+media-libs/nv-codec-headers			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/openal					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/openh264					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/openjpeg					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/opus						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/phonon					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/phonon-vlc				O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/rnnoise					O3 graphite noplt seminterpos iptpta      lto devirtlto
+media-libs/speexdsp					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/tg_owt					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/tiff						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/vulkan-loader			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/webrtc-audio-processing	O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/x264						O3 graphite noplt seminterpos iptpta fast
+media-libs/xvid						O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-libs/zxing-cpp				O3 graphite noplt seminterpos iptpta fast lto devirtlto

@@ -1,0 +1,6 @@
+MATH="-fp-model=precise"
+
+COMMON_FLAGS="${COMMON_FLAGS} ${MATH}"
+
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"

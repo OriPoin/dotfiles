@@ -1,23 +1,19 @@
-net-libs/glib-networking		default
-net-libs/gnutls					default
-net-libs/gtk-vnc				default
-net-libs/http-parser			default
-net-libs/libasyncns				default
-net-libs/libmnl					default
-net-libs/libnatpmp				default
-net-libs/libnsl					default
-net-libs/libpcap				default
-net-libs/libproxy				default
-net-libs/libpsl					default
-net-libs/libslirp				default
-net-libs/libsoup				default
-net-libs/libssh					default
-net-libs/libssh2				default
-net-libs/libtirpc				default
-net-libs/libtorrent-rasterbar	default
-net-libs/mbedtls				default
-net-libs/miniupnpc				default
-net-libs/nghttp2				default
-net-libs/nodejs					noplt-ipa_pta-noseminter
-net-libs/rpcsvc-proto			default
-net-libs/usrsctp				default
+net-libs/glib-networking		lto noplt seminterpos
+net-libs/gnutls					lto noplt seminterpos
+net-libs/gtk-vnc				lto noplt seminterpos
+net-libs/libasyncns				lto noplt seminterpos
+net-libs/libmnl					lto noplt seminterpos
+net-libs/libnatpmp				lto noplt seminterpos
+net-libs/libpcap				lto noplt seminterpos
+net-libs/libpsl					lto noplt seminterpos
+net-libs/libslirp				lto noplt seminterpos
+net-libs/libsoup				lto noplt seminterpos
+net-libs/libssh2				lto noplt seminterpos
+net-libs/libtirpc				lto noplt seminterpos
+net-libs/libtorrent-rasterbar	lto noplt seminterpos
+net-libs/mbedtls				lto noplt seminterpos
+net-libs/miniupnpc				lto noplt seminterpos
+net-libs/nghttp2				lto noplt seminterpos
+net-libs/nodejs					noplt
+net-libs/rpcsvc-proto			lto noplt seminterpos
+net-libs/usrsctp				lto noplt seminterpos

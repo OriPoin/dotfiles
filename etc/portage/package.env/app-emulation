@@ -1,6 +1,6 @@
-app-emulation/libvirt			lto-noplt
-app-emulation/libvirt-glib		lto-noplt-ipa_pta-noseminter
-app-emulation/qemu				qemu
-app-emulation/spice				lto-noplt-ipa_pta-noseminter
-app-emulation/spice-protocol	lto-noplt-ipa_pta-noseminter
-app-emulation/virt-manager		lto-noplt-ipa_pta-noseminter
+app-emulation/libvirt				O3 graphite noplt fast lto devirtlto
+app-emulation/libvirt-glib			O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-emulation/qemu					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-emulation/spice					O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-emulation/spice-protocol		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+app-emulation/virt-manager			O3 graphite noplt seminterpos iptpta fast lto devirtlto

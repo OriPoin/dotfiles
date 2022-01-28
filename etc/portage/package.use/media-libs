@@ -1,5 +1,5 @@
 media-libs/freetype		harfbuzz
-media-libs/mesa			osmesa -opencl -vaapi -vdpau
+media-libs/mesa			-vaapi -vdpau
 media-libs/harfbuzz		introspection
 media-libs/gstreamer	introspection
 media-libs/libmpeg2		-sdl

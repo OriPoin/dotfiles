@@ -1,1 +1,2 @@
 sys-auth/polkit		-gtk introspection
+sys-auth/pambase	-passwdqc

@@ -1,3 +1,3 @@
-media-sound/lame		lto-noplt-ipa_pta-noseminter
-media-sound/mpg123		lto-noplt-ipa_pta-noseminter
-media-sound/pulseaudio	lto-noplt-ipa_pta-noseminter
+media-sound/lame		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-sound/mpg123		O3 graphite noplt seminterpos iptpta fast lto devirtlto
+media-sound/pulseaudio	O3 graphite noplt seminterpos iptpta fast lto devirtlto

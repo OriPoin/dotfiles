@@ -1,1 +1,1 @@
-sys-kernel/xanmod-lts	zstd -cjk
+sys-kernel/xanmod-lts	-cjk -initramfs clang

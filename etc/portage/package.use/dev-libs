@@ -1,1 +1,5 @@
-dev-libs/atk	introspection
+dev-libs/atk			introspection
+dev-libs/boost			nls
+dev-libs/libnl			-debug
+dev-libs/rasqal			-mhash
+dev-libs/libdbusmenu	gtk3
